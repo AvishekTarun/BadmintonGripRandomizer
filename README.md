@@ -1,8 +1,8 @@
 # Random Badminton Grip Type Generator 🏸
 Generates a badminton grip randomly, you have to switch to that grip. 
 ## Welcome, Shuttlers!
--Have fun with our app that randomly selects one of the four badminton grips and reads them aloud, with a bias towards "Forehand"!
--Designed to help you create a habit of switching between the four basic badminton grips. 
+- Have fun with our app that randomly selects one of the four badminton grips and reads them aloud, with a bias towards "Forehand"!
+- Designed to help you create a habit of switching between the four basic badminton grips. 
 
 ## Features at a Glance
 - Randomly shouts out one of the four badminton grips: "Forehand", "Backhand", "Bevel", and "Panhandle"
