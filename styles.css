@@ -77,3 +77,23 @@ button:hover {
         padding: 10px 20px;
     }
 }
+
+.footer {
+    position: fixed; /* Fixed position */
+    left: 0;
+    bottom: 0; /* Positioned at the bottom */
+    width: 100%; /* Full width */
+    text-align: center; /* Center align text */
+    font-size: 1em;
+    background-color: #f0f0f0; /* Background color, optional */
+    padding: 10px 0; /* Some padding */
+}
+
+.footer a {
+    text-decoration: underline;
+    color: #333;
+}
+
+.footer a:hover {
+    color: #4CAF50;
+}
