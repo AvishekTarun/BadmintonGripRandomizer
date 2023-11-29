@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Word Display Box */
+#wordDisplay {
+    display: flex; /* Using flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text alignment */
+    font-size: 2em; /* Adjusted font size */
+    font-weight: bold;
+    color: #FFF; /* White text */
+    margin: 20px auto; /* Centered horizontally */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333; /* Dark neutral color */
+    width: 80%;
+    max-width: 400px;
+    min-height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#stopButton {
+    background-color: #ff4d4d; /* Red color */
+}
+
+#stopButton:hover {
+    background-color: #ff3333;
+}
+
+/* Responsive Design for Smaller Devices */
+@media (max-width: 600px) {
+    #wordDisplay {
+        font-size: 1.5em; /* Smaller font size for smaller devices */
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+}
